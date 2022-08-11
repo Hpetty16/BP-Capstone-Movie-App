@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Movie-App",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Movie-App"
+	}
+}
