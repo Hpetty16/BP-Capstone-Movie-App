@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="seatStyles.css">
+  <title>HJP Cinemas</title>
+</body>
+</head>
+<body>
+  <h1>HJP Cinemas</h1>
+  <div class="slider-row">
+    <div class="header">
+      <h3 class="movie-list-title">Current Films</h3>
+      <div class="progress-bar"></div>
+    </div>
+    <div class="movie-list-container">
+      <button class="handle left-handle">
+        <div class="text">&#8249;</div>
+      </button>
+      <div class="movie-list-slider">
+        <img class="movie-list-item-img" src="img/img2.jpg" alt="">
+        <!-- <span class="movie-list-item-title">Demon Slayer Mugen Train </span>
+        <p class="movie-list-item-desc"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae exercitationem, </p> -->
+        <img class="movie-list-item-img" src="img/img3.jpg">
+        <img class="movie-list-item-img" src="img/img4.jpg">
+        <img class="movie-list-item-img" src="img/img5.jpg">
+        <img class="movie-list-item-img" src="img/img6.jpg">
+        <img class="movie-list-item-img" src="img/img1.jpg">
+        <img class="movie-list-item-img" src="img/img7.jpg">
+        <img class="movie-list-item-img" src="img/img8.jpg">
+        <img class="movie-list-item-img" src="img/img9.jpg">
+        <img class="movie-list-item-img" src="img/img10.jpg">
+        <img class="movie-list-item-img" src="img/img11.jpg">
+        <img class="movie-list-item-img" src="img/img12.jpg">
+      </div>
+      <button class="handle right-handle">
+        <div class="text">&#8250;</div>
+      </button>
+    </div>
+  </div>
+  
+  <div class = "content">
+    <label class="title" for=""> Please Pick a Movie:</label>
+    <select name="" id = "film">
+      <option value="16">Nope IMAX <span class="price"> $16</span></option>
+      <option value="10">The Black Phone <span class="price"> $10</span></option>
+      <option value="16">Joker IMAX <span class="price"> $16</span></option>
+      <option value="10">Paws of Fury <span class="price"> $10</span></option>
+      <option value="10">The Dark Knight <span class="price"> $10</span></option>
+      <option value="10">Demon Slayer the Movie: Mugen Train <span class="price"> $10</span></option>
+      <option value="10">Jurassic World <span class="price"> $10</span></option>
+      <option value="10">The Avengers End Game <span class="price"> $10</span></option>
+      <option value="10">Us <span class="price"> $10</span></option>
+      <option value="16">Everything Everywhere All at Once Imax <span class="price"> $16</span></option>
+      <option value="10">The Batman IMAX <span class="price"> $16</span></option>
+      <option value="10">Bullet Train <span class="price"> $10</span></option>
+    </select>
+  </div>
+  <!-- <div class="container">
+    <div class="screen"></div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+</div>
+  <ul class="Seat-Availability">
+    <li>
+        <div class="Seat"></div>
+        <small>Not Occupied</small>
+    </li>
+    <li>
+        <div class="Seat Occupied"></div>
+        <small>Occupied</small>
+    </li>
+    <li>
+        <div class="Seat Selected"></div>
+        <small>Selected</small>
+    </li>
+</ul>
+<p class="text">You have selected <span id="count">0</span>
+  seats for a price of $<span id="total">0</span>
+</p>
+<button class="submit-button">Submit Movie</button> -->
+
+<div class="cinemaInfo">
+  <div class="seat info"></div>
+  <small>Not Occupied</small>
+
+
+  <div class="seat info selected"></div>
+  <small>Selected</small>
+
+
+  <div class="seat info occupied"></div>
+  <small>Occupied</small>
+</div>
+
+<div class="theatre">
+  <div class="screenArea"><span> HJP CINEMAS </span></div>
+  <div class="theatreRows">
+    <div class="row" id="1">
+      <div class="rowNumb" id="1"></div>
+      <div class="seat" id="1"></div>
+      <div class="seat" id="2"></div>
+      <div class="seat" id="3"></div>
+      <div class="seatwheelChair" id="4"><img class="wheelChair" src="img/icons8-wheelchair-52.png" alt=""></div>
+      <div class="seatwheelChair" id="4"><img class="wheelChair" src="img/icons8-wheelchair-52.png" alt=""></div>
+      <div class="seat" id="6"></div>
+      <div class="seat" id="7"></div>
+      <div class="seat" id="8"></div>
+      <div class="seat occupied" id="9"></div>
+      <div class="seat" id="10"></div>
+    </div>
+    <div class="row" id="2">
+      <div class="rowNumb" id="2"></div>
+      <div class="seat" id="1"></div>
+      <div class="seat" id="2"></div>
+      <div class="seat" id="3"></div>
+      <div class="seat" id="4"></div>
+      <div class="seat occupied" id="5"></div>
+      <div class="seat" id="6"></div>
+      <div class="seat" id="7"></div>
+      <div class="seat" id="8"></div>
+      <div class="seat" id="9"></div>
+      <div class="seat" id="10"></div>
+    </div>
+    <div class="row" id="3">
+      <div class="rowNumb" id="3"></div>
+      <div class="seat" id="1"></div>
+      <div class="seat" id="2"></div>
+      <div class="seat" id="3"></div>
+      <div class="seat" id="4"></div>
+      <div class="seat" id="5"></div>
+      <div class="seat" id="6"></div>
+      <div class="seat" id="7"></div>
+      <div class="seat" id="8"></div>
+      <div class="seat" id="9"></div>
+      <div class="seat" id="10"></div>
+    </div>
+    <div class="row" id="4">
+      <div class="rowNumb" id="4"></div>
+      <div class="seat" id="1"></div>
+      <div class="seat" id="2"></div>
+      <div class="seat" id="3"></div>
+      <div class="seat" id="4"></div>
+      <div class="seat" id="5"></div>
+      <div class="seat" id="6"></div>
+      <div class="seat" id="7"></div>
+      <div class="seat" id="8"></div>
+      <div class="seat" id="9"></div>
+      <div class="seat" id="10"></div>
+    </div>
+    <div class="row" id="5">
+      <div class="rowNumb" id="5"></div>
+      <div class="seat" id="1"></div>
+      <div class="seat" id="2"></div>
+      <div class="seat" id="3"></div>
+      <div class="seat" id="4"></div>
+      <div class="seat" id="5"></div>
+      <div class="seat" id="6"></div>
+      <div class="seat" id="7"></div>
+      <div class="seat" id="8"></div>
+      <div class="seat" id="9"></div>
+      <div class="seat" id="10"></div>
+    </div>
+  </div>
+</div>
+
+<div class="checkout">
+  <div class="checkOutAreaOne">
+    <span> Position(S/R):</span>
+    <div class="postS"></div>
+    <br>
+    <div class="checkoutTotal">
+      <span> Seats:</span> <span class="seatTotal"> 0 </span>
+      <span> Total $: </span> <span class="cost"> 0 </span>
+    </div>
+
+    <br>
+  </div>
+
+  <div class="checkOutAreaTwo">
+    <!-- BACKEND ROUTE -->
+    <!-- <form action="https://YOURSITE.COM/CREDITCARDCHECKOUT" method="POST">
+      <script src="https://stripe.com/docs/payments/checkout" class="stripe-button" data-key="pk_test_51LVQx2JUw025XWo7RfTnPSsS1EHTpWw3NRA3wg3fECNuMkjEJNYHC5gO4FSE9XUnLGBpzMtAoJxIpoU7zJg55J2X00s6bUOCRc"
+        data-amount="0" data-name="test" data-description="Buy Film"
+        data-image="img/movie-film-2-120-317376.png" data-locale="auto" data-currency="usd">
+      </script>
+      <script>
+        // Hide default stripe button
+        document.getElementsByClassName('stripe-button')[0].style.display = 'none';
+      </script> -->
+
+
+      <button onclick="alert('💰Thank you for buying your ticket!!💰 \n 🎥🍿Get some refreshments and enjoy the film!!🍿🎥') "  type="submit" class="btnBuyTickets">Buy</button>
+
+    </form>
+
+
+  </div>
+</div>
+
+
+  <script src="seat.js"> </script>
+  <script src="slider.js"></script>
+</body>
+</html>
