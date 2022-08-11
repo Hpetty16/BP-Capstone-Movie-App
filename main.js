@@ -4,7 +4,7 @@ const API_URL = `https://api.themoviedb.org/3/movie/popular?`;
 
 const IMAGE_URL = `https://image.tmdb.org/t/p/w1080`;
 
-// select dom Elements
+
 let mostPopularDocument = document.querySelector(".most-popular");
 let movieContainer = document.querySelector(".movie-container");
 let modalContainer = document.querySelector(".modal-container");
@@ -15,7 +15,7 @@ let movieDetail = document.querySelector(".movie-detail");
 
 
 
-//when you click on the image box
+//adding event listener to the movie click button to get api info for film clicked
 movieContainer.addEventListener("click", (event) => {
 
     if (event.target.classList[0] == "movie-image") {
@@ -27,14 +27,12 @@ movieContainer.addEventListener("click", (event) => {
         // set the title and and the deatils
         movieTitle.innerHTML = title;
         movieDetail.innerHTML = overview;
-
-        // show the modal
         modalContainer.classList = "modal-container show";
     }
 
 })
 
-// click to overly to close the modal
+
 modalContainer.addEventListener("click", (event) => {
 
     if (event.target.classList[0] == "modal-container") {
@@ -42,12 +40,12 @@ modalContainer.addEventListener("click", (event) => {
     }
 })
 
-// when you click close button
+// clicking close button
 close.addEventListener("click", () => {
     modalContainer.classList = "modal-container hide";
 })
 
-// funtion that shows all movies to the DOM
+// shows all movies (got from SO)
 const biuldTheDom = (movies) => {
 
     mostPopularDocument.innerHTML = "";

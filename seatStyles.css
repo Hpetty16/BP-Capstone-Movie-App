@@ -366,7 +366,7 @@ div.theatreRows {
   }
 
   .movie-list-item-img:hover{
-    cursor: default;
+    cursor: pointer;
   transform: scale(.9);
   }
   

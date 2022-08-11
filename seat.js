@@ -51,8 +51,7 @@ const updateValues = (seatNumber, seatRow, removeSeat) => {
       ` ${seatNumber}/${seatRow} -`,
       ""
     );
-    // Save value inside browser local storage
-    // sessionStorage.setItem("S&&R", postS.innerHTML);
+    
   }
 }
 // Set ticket price
@@ -67,11 +66,6 @@ cost.innerHTML = seatSelected.length * ticket;
 //**Load data from browser local storage**
 let seatNotSelected = document.querySelectorAll(".seat:not(.selected)");
 const loadData = () => {
-// Load data from the browser
-// let seats = JSON.parse(sessionStorage.getItem("seats"));
-// let movie = sessionStorage.getItem("movie");
-// let price = sessionStorage.getItem("price");
-// let occupied = JSON.parse(sessionStorage.getItem("occupied"));
 
 
 // Set selected seats
